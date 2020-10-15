@@ -13,9 +13,9 @@ body{
 
 
 
-#flex-container{
+#flex-containerintro{
 display: flex;
-background-color: gold;
+background-image: url(/images/IntroBackground.jpg);
 position: relative;
 flex-direction: column;
 flex-wrap: wrap;
@@ -24,9 +24,33 @@ align-content: center;
 margin-left: 0px;
 margin-right: 0px;
 height: 160px;
+z-index: -2;
+
 
 
 }
+#flex-container-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+    
+    
+}
+#headertextimage{
+    position: relative;
+    left: 200px;
+    width: 800px;
+    z-index: -1;
+    border: thick solid black;
+}
+#test{
+    color: white;
+    position: relative;
+    right: 600px;
+    
+}
+
  
 #header-flex-container{
     
@@ -36,6 +60,7 @@ height: 160px;
     justify-content: center;
     height: 40px;
     
+
 }
 #header-buttons{
     left: 822px;
@@ -48,14 +73,14 @@ height: 160px;
     position: relative;
     width: 150px;
     border-radius: 50px;
-    right: 440px;
+    right: 200px;
 
 }
 #html-image2{
     position: relative;
     width: 150px;
     border-radius: 50px;
-    left: 440px;
+    left: 200px;
 
 }
 #table-flex-container{

@@ -1,0 +1,79 @@
+body{ 
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: turquoise;
+
+}
+#page{
+    width: 100%;
+}
+
+
+
+#flex-container{
+display: flex;
+background-color: gold;
+position: relative;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+margin-left: 0px;
+margin-right: 0px;
+height: 160px;
+
+
+}
+ 
+#header-flex-container{
+    
+    display: flex;
+    background-color: blue;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
+    
+}
+#header-buttons{
+    left: 822px;
+    height: 40px;
+    position: relative;
+    float: left;
+
+}                 
+#html-image1{
+    position: relative;
+    width: 150px;
+    border-radius: 50px;
+    right: 440px;
+
+}
+#html-image2{
+    position: relative;
+    width: 150px;
+    border-radius: 50px;
+    left: 440px;
+
+}
+#table-flex-container{
+    display: flex;
+    background-color: violet;
+    align-content: center;
+    justify-content: center;
+    height: 700px;
+}
+#footer-flex-container{
+    display: flex;
+    background-color: forestgreen;
+    align-content: center;
+    justify-content: center;
+    height: 92px;
+}
+
+
+
+
+

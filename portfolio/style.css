@@ -53,15 +53,18 @@ z-index: -2;
 
  
 #header-flex-container{
+    border: thick solid black;
     
     display: flex;
-    background-color: blue;
+    background-color: cornflowerblue;
     align-content: center;
     justify-content: center;
     height: 40px;
+    z-index: 1;
     
 
 }
+
 #header-buttons{
     left: 822px;
     height: 40px;
@@ -83,20 +86,86 @@ z-index: -2;
     left: 200px;
 
 }
+
 #table-flex-container{
     display: flex;
+
     background-color: violet;
-    align-content: center;
-    justify-content: center;
     height: 700px;
 }
+
+#table-intro{
+    position: relative;
+    left: 200px;
+    
+}
+
+#table-flex-box{
+    border: thick solid black;
+    background-image: url(/images/table\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornsilk;  
+    width: 50%;
+    
+    
+    
+}
+#picture{
+    border: thick solid black;
+    position: relative;
+    width: 600px;
+    height: 80px;
+    border-radius: 100px;
+    
+    right: 200px;
+    
+}
+
+h2{
+    position: relative;
+    left: 19%;
+    z-index: 1;
+    
+    
+    
+}  
+
+
+#th1{
+    border: thick solid black;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(/images/table-backgrounds.png);
+    border-radius: 100px;
+    top: -3%;
+    
+}
+
+#th2{
+    border: thick solid black;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(/images/table-backgrounds.png);
+    border-radius: 100px;
+    top: -1%;
+
+}
+
+ 
 #footer-flex-container{
     display: flex;
     background-color: forestgreen;
     align-content: center;
     justify-content: center;
     height: 92px;
+    
 }
+
 
 
 

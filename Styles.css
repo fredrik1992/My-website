@@ -6,106 +6,96 @@ head{
 body {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwV0ua5hseEEIIaTRoqDtYCZvhdmEjxz-lTQ&usqp=CAU');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-  }
- #box-wrapper{
     position: absolute;
     height: 700px;
     width: 100%;
+    margin: 0%;
+    padding: 0%;
+    z-index: -1;
+    
+  }
+ #box-wrapper{
+   width: 100%;
 
  }
 
-  .fredrik{
+
+#flex-box-intro{
+    display: flex;
+    position: relative;
+    align-self: center;
+    height: 160px;
+    align-content: center;
+    justify-content: center;
+}
+#fredrik{
+    position: relative;
     border: thick solid black;
    width: 150px;
-   
-   float: left;
+   right: 256px;
    margin: 0%;
    
 }
-#intro{
+#textintro{
+    border-radius: 40px;
+    color: white;
     position: relative;
-    float: left;
-    align-self: center;
-    left: 30%;
-    width: 400px;
-    height: 200px;
+    text-align: center;
+    height: 50px;
+    font-size: 35px;
+    top: 30px;
+    left: 330px;
     
     
 }
 #intro-background{
-    
     border-radius: 250px;
     z-index: -1;
     position: relative;
-    top: -100px;
-    width: 400px;
-    left: 20%;
+    width: 500px;
     border: thick solid blanchedalmond;
+    right: 150px;
     
-    
-}
-
-.textintro{
-    border-radius: 40px;
-    color: white;
-
-    
-    position: relative;
-    text-align: center;
-    float: left ;
-    left: 22%;
-    height: 50px;
-    font-size: 35px;
-    top: 50px;
     
 }
 
 #picture-box{
-
-    float: left;
     position: relative;
-    left: 55%;
+    left: 290px;
 }
+
 #picture1{
     border-radius: 50px;
     width: 85px;
-
 }
+
 #picture2{
     border-radius: 50px;
     width: 100px;
     height: 156px;
 }
 
-.fredrik-facebook-link{
-    position: relative;
-    left: -1088px;
-    top: 16px;
-}
-
-.about{
-    clear: left;
-    float: left;
+#about-flex-box{
+    display: flex;
     border: thick solid black;
     position: relative;
-    width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: cornflowerblue;
 }
+
 .dropdown {
-    
-    position: relative;
-    float: left;
-    display: inline-block;
+     display: inline-block;
+     
   }
   #website-links{
-    float: left;
+    position: relative;
     border: thick solid black;
-    display: inline-block; margin-right: 0px;
-    height: 50px;
+    display: inline-block; 
+    margin-right: 0px;
+    height: 40px;
     width: 150px;
+    right: 15px;
 
   }
 
@@ -126,7 +116,7 @@ body {
 
 }
 #infolinksbox{
-    left: 74%;
+    left: 1421px;
     position: relative;
     
 
@@ -135,41 +125,29 @@ body {
 #infolinks{
     border: thick solid black;
     display: inline-block; margin-right: 0px;
-    height: 50px;
+    height: 40px;
     width: 80px;
 
 }
 
-#section-box{
+#section-flex-box{
+    display: flex;
     width: 100%;
-    height: 750px;
+    height: 700px;
+
 }
 
-
-
-#box{
-    clear: left;
-    float: left;
-    height: 750px;
-    width: 100%;
-    background-color: black;
-}
-.firstbackground{
+#firstbackground{
     
     border: thick solid black;
-    clear: left;
     background-image: url('images/pattern.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height:100%;
     width: 50%;
-    float: left; 
-   
-    
-    
-    
 }
+
 #padel-jpg{
     border-radius: 300px;
     position: relative;
@@ -178,7 +156,7 @@ body {
 
 
 
-.secondbackground{
+#secondbackground{
     border: thick solid black;
     
     background-image: url('images/pattern.jpg');
@@ -186,15 +164,15 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height:100%;
-    width: 48%;
-    float: left;
+    width: 50%;
+    
     
     
     
 }
-#footer{
-    clear: left;
-    float: left;
+#footer-flex-box{
+    display: flex;
+    height: 50px;
     background-color: cadetblue;
     border: thick solid black;
     position: relative;
@@ -203,7 +181,7 @@ body {
 }
 #footerlinkwindow{
 
-    float: left;
+    
     position: relative;
 }
 

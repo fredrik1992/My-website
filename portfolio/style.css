@@ -56,7 +56,7 @@ z-index: -2;
     border: thick solid black;
     
     display: flex;
-    background-color: cornflowerblue;
+    background-image: url(/images/headerbackground.jpg);
     align-content: center;
     justify-content: center;
     height: 40px;
@@ -113,20 +113,21 @@ z-index: -2;
     
     
 }
-#picture{
+#myproject-background{
     border: thick solid black;
     position: relative;
     width: 600px;
     height: 80px;
     border-radius: 100px;
     
-    right: 200px;
+    right: 185px;
     
 }
 
 h2{
+    font-weight: bold;
     position: relative;
-    left: 19%;
+    left: 22%;
     z-index: 1;
     
     
@@ -159,13 +160,25 @@ h2{
  
 #footer-flex-container{
     display: flex;
-    background-color: forestgreen;
+    height:80px;
+    background-image: url(/images/headerbackground.jpg);
+    border: thick solid black;
+    position: relative;
     align-content: center;
     justify-content: center;
-    height: 92px;
+
     
 }
+#footerlinkwindow{
+position: relative;
+top: -50px;
+left: 100px;
 
+
+
+    
+    
+}
 
 
 

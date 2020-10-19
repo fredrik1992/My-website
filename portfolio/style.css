@@ -101,6 +101,7 @@ z-index: -2;
 }
 
 #table-flex-box{
+    box-sizing: border-box;
     border: thick solid black;
     background-image: url(/images/table\ background.jpg);
     background-repeat: no-repeat;
@@ -146,7 +147,7 @@ h2{
     
 }
 
-#th2{
+div th{
     border: thick solid black;
     position: relative;
     width: 200px;
@@ -157,6 +158,18 @@ h2{
 
 }
 
+.flex-table-box2{
+    box-sizing: border-box;
+    border: thick solid black;
+    background-image: url(/images/table\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornsilk;  
+    width: 50%;
+
+}
  
 #footer-flex-container{
     display: flex;

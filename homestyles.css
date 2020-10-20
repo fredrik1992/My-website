@@ -66,15 +66,18 @@ body{
     
  }
  #website-links{
+     float: left; ;
    position: relative;
    display: inline-block; 
    height: 40px;
    width: 150px;
-   right: 750px;
+   
 
  }
 
 .dropdown-content{
+    position: absolute;
+    
    display: none;
    position: absolute;
    float: left;

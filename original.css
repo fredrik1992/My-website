@@ -1,0 +1,135 @@
+body{ 
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: turquoise;
+
+}
+
+#page{
+    width: 100%;
+}
+
+
+
+#flex-containerintro{
+display: flex;
+background-color: salmon;
+
+position: relative;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+margin-left: 0px;
+margin-right: 0px;
+height: 160px;
+
+
+
+
+}
+#flex-container-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+    
+    
+}
+#headertextimage{
+    position: relative;
+    left: 200px;
+    width: 800px;
+    z-index: -1;
+    border: thick solid black;
+}
+
+
+ 
+#header-flex-container{
+    border: thick solid black;
+    background-image: url(/images/headerbackground.jpg);
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
+    z-index: 1;
+    
+
+}
+
+#header-buttons{
+    left: 822px;
+    height: 40px;
+    position: relative;
+    float: left;
+
+}                 
+
+
+#table-flex-container{
+    display: flex;
+
+    background-color: violet;
+    height: 720px;
+}
+
+
+
+#table-flex-box{
+    box-sizing: border-box;
+    border: thick solid black;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornsilk;  
+    width: 50%;
+    
+    
+    
+}
+
+
+#table-flex-box2{
+    box-sizing: border-box;
+    border: thick solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornsilk;  
+    width: 50%;
+
+}
+ 
+#footer-flex-container{
+    display: flex;
+    height:40px;
+    background-image: url(/images/headerbackground.jpg);
+    border: thick solid black;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+#footerlinkwindow{
+position: relative;
+top: -50px;
+left: 100px;
+
+
+
+    
+    
+}
+
+
+
+
+
+  

@@ -7,15 +7,17 @@
         <title>Fredriks personal website</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="/original.css" type="text/css">
+        <link rel="stylesheet" href="/homestyles.css" type="text/css">
+
     </head>
     <body>
        <main>
-        <div id="box-wrapper">
+        <div id="page">
         
         
             
-            <div id="flex-box-intro"> 
+            <div id="flex-containerintro"> 
                 <img src="images/fredrik.jpg" id="fredrik" alt="">           
                  <h1 id="textintro">Welcome my name is <br>
                   Fredrik and this is my website</h1>
@@ -28,8 +30,8 @@
                  </figure>
 
             </div>
-        <header>
-          <nav id="about-flex-box">
+        <header id="header-flex-container" >
+          
             <div class="dropdown">'
                 <button type="button"  id="website-links"  >Links to useful learning websites</button>
                 <nav class="dropdown-content">
@@ -53,18 +55,18 @@
             
    
              </section>
-             <article id="infolinksbox">
-                <a href="portfolio/index.html" > <button type="button" id="infolinks"  >Portfolio</button></a> 
-                <a href="https://www.facebook.com/fredrik.granath.96"  > <button type="button" id="infolinks"  >About</button></a>
-                <a href="https://www.facebook.com/fredrik.granath.96" > <button type="button" id="infolinks"  >Facebook</button></a>
-                <a href="https://www.facebook.com/fredrik.granath.96/about" > <button type="button" id="infolinks"  >Contact</button></a>
+             <article id="">
+                <a href="portfolio/index.html" > <button type="button" id="header-buttons"  >Portfolio</button></a> 
+                <a href="https://www.facebook.com/fredrik.granath.96"  > <button type="header-buttons" id="header-buttons"  >About</button></a>
+                <a href="https://www.facebook.com/fredrik.granath.96" > <button type="button" id="header-buttons"  >Facebook</button></a>
+                <a href="https://www.facebook.com/fredrik.granath.96/about" > <button type="button" id="header-buttons"  >Contact</button></a>
 
              </article>
             
         '</header> 
       
-       <div id="section-flex-box">
-        <section  id="firstbackground">
+       <div id="table-flex-container">
+        <section  id="table-flex-box">
             <h2 >Some quick things about me</h2>
             <h3>My favorite Quotes</h3>
             <blockquote cite="https://en.wikipedia.org/wiki/Tenth_Doctor">
@@ -76,8 +78,10 @@
 
         
         </section>
+       
+       <div id="table-flex-box2">
 
-        <section    id="secondbackground">
+        <section   >
             <table>
                 <tr>
                     <th>Description</th>
@@ -90,11 +94,12 @@
 
         </section>
     </div>
+    
 </main>
 
 
 
-        <footer id="footer-flex-box">
+        <footer id="footer-flex-container">
             <address>
                 <a href="klosansa1@hotmail.com">Email Fredrik</a> <!--lets you write directly to emal-->
                 <p>Sweden malmö</p>

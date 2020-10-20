@@ -1,41 +1,7 @@
-body{ 
-    position: absolute;
-    height: 700px;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    background-color: turquoise;
-
-}
-#page{
-    width: 100%;
-}
-
-
-
 #flex-containerintro{
-display: flex;
-background-image: url(/images/IntroBackground.jpg);
-position: relative;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-margin-left: 0px;
-margin-right: 0px;
-height: 160px;
-z-index: -2;
 
-
-
-}
-#flex-container-text{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    background-image: url(/images/IntroBackground.jpg);
     z-index: -1;
-    
-    
 }
 #headertextimage{
     position: relative;
@@ -44,27 +10,13 @@ z-index: -2;
     z-index: -1;
     border: thick solid black;
 }
+
 #test{
     color: white;
     position: relative;
     right: 600px;
     
 }
-
- 
-#header-flex-container{
-    border: thick solid black;
-    
-    display: flex;
-    background-image: url(/images/headerbackground.jpg);
-    align-content: center;
-    justify-content: center;
-    height: 40px;
-    z-index: 1;
-    
-
-}
-
 #header-buttons{
     left: 822px;
     height: 40px;
@@ -87,18 +39,6 @@ z-index: -2;
 
 }
 
-#table-flex-container{
-    display: flex;
-
-    background-color: violet;
-    height: 700px;
-}
-
-#table-intro{
-    position: relative;
-    left: 200px;
-    
-}
 
 #table-flex-box{
     box-sizing: border-box;
@@ -114,6 +54,7 @@ z-index: -2;
     
     
 }
+
 #myproject-background{
     border: thick solid black;
     position: relative;
@@ -124,18 +65,17 @@ z-index: -2;
     right: 185px;
     
 }
-
+#table-intro{
+    position: relative;
+    left: 200px;
+    
+}
 h2{
     font-weight: bold;
     position: relative;
     left: 22%;
     z-index: 1;
-    
-    
-    
 }  
-
-
 #th1{
     border: thick solid black;
     position: relative;
@@ -157,43 +97,15 @@ div th{
     top: -1%;
 
 }
-
-.flex-table-box2{
+#table-flex-box2{
     box-sizing: border-box;
     border: thick solid black;
-    background-image: url(/images/table\ background.jpg);
+    background-image: url(/images/table-backgrounds.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    background-color: cornsilk;  
+    
     width: 50%;
 
 }
- 
-#footer-flex-container{
-    display: flex;
-    height:80px;
-    background-image: url(/images/headerbackground.jpg);
-    border: thick solid black;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-
-    
-}
-#footerlinkwindow{
-position: relative;
-top: -50px;
-left: 100px;
-
-
-
-    
-    
-}
-
-
-
-
-

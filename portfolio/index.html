@@ -7,16 +7,16 @@
         <title>Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../original.css" type="text/css">
+        <link rel="stylesheet" href="/grid.css" type="text/css">
         <link rel="stylesheet" href="portfolio.css" type="text/css">
 
         
     </head>
     <body >
-        <main>
-        <div id="page">
         
-        <div id="flex-containerintro">
+        <div class="main-container">
+        
+        <div class="intro"">
        
 
                  <img id="html-image1" src="/images/html.png" alt="null">
@@ -24,7 +24,7 @@
                        
                         <img src="/images/textBackground.jpg" alt="null" id="headertextimage">
                        
-                         <h1 id="test">
+                         <h1 class="introheadtext">
                          This is a collection of my 
                          <br>
                            projects i am doing in html
@@ -36,27 +36,28 @@
             
         </div>
         
-        <div id="header-flex-container">
+         
             <header>
-                <article id="header-boxes">
+                <div class="header-boxes">
+                <nav class="headerarticle">
                     <a href="portfolio/index.html" > <button type="button" id="header-buttons" disabled  >Portfolio</button></a> 
                     <a href="../Index.html" target="_blank"> <button type="button" id="header-buttons"  >Home</button></a>
                     <a href="https://www.facebook.com/fredrik.granath.96" > <button type="button" id="header-buttons"  >Facebook</button></a>
                     <a href="https://www.facebook.com/fredrik.granath.96/about" > <button type="button" id="header-buttons"  >Contact</button></a>
     
-                 </article>
-
+                </nav>
+                </div>
 
 
             </header>
-        </div>
+        
 
-        <div id="table-flex-container">
+        
            
             
-            <div id="table-flex-box">
+            <aside1>
                 <h2 >My projects in html</h2>
-            <img src="/images/table-backgrounds.png" alt="" id="myproject-background"> 
+            <img src="/images/table-backgrounds.png" alt="" class="myproject-background"> 
             <table >
                        
                 <thead>
@@ -69,9 +70,16 @@
                 <tbody>
                      <div>
                         <tr >
-                            <th >A media page</th>
-                            <th >2020/10/20</th>
-                            <th ><a href="/portfolio/projects/media.html">Link</a></th>
+                            <th id="thmedia" >A media page</th>
+                            <th id="thmedia">2020/10/20</th>
+                            <th id="thmedia"><a href="/portfolio/projects/media.html">Link</a></th>
+                        </tr>
+                        
+                        
+                        <tr >
+                            <th >gridproject</th>
+                            <th >2020/10/21</th>
+                            <th ><a href="/portfolio/projects/gridproject.html">Gridproject</a></th>
                         </tr>
                         <tr >
                             <th >text</th>
@@ -88,22 +96,35 @@
                             <th >text</th>
                             <th ><a href="https://www.google.se/">Google</a></th>
                         </tr>
+                        <tr >
+                            <th >text</th>
+                            <th >text</th>
+                            <th ><a href="https://www.google.se/">Google</a></th>
+                        </tr>
+                        <tr >
+                            <th >text</th>
+                            <th >text</th>
+                            <th ><a href="https://www.google.se/">Google</a></th>
+                        </tr>
+                        
+                        
 
                       </div>
                  </tbody>
 
             </table>
+            </aside1>
             
-            </div>
+            
 
-        <div id="table-flex-box2">
+        <article2>
 
 
-        </div>
-        </div>
-    </main>
+        </article2>
+        
+    
 
-        <div id="footer-flex-container">
+        
 
             <footer>
                 <address>
@@ -120,9 +141,9 @@
             </address>
             </footer>
 
-        </div>
         
-     </div>       
+   </div>   
+           
        
         
         </body>

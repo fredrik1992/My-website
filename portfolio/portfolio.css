@@ -1,34 +1,27 @@
-#flex-containerintro{
 
+
+
+.main-container{
+    
+    grid-template-columns: 35% 0% auto 0% ;
+    
+} 
+
+.intro{
+    background-color: none;
     background-image: url(/images/IntroBackground.jpg);
-    z-index: -1;
-}
-#headertextimage{
-    position: relative;
-    left: 200px;
-    width: 800px;
-    z-index: -1;
-    border: thick solid black;
-}
-
-#test{
-    color: white;
-    position: relative;
-    right: 600px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "head1 head2 head3 "
     
 }
-#header-buttons{
-    left: 822px;
-    height: 40px;
-    position: relative;
-    float: left;
-
-}                 
 #html-image1{
     position: relative;
     width: 150px;
     border-radius: 50px;
-    right: 200px;
+    grid-area: head1;
 
 }
 #html-image2{
@@ -36,33 +29,85 @@
     width: 150px;
     border-radius: 50px;
     left: 200px;
+    grid-area: head3;
 
 }
 
-
-#table-flex-box{
-    box-sizing: border-box;
+#headertextimage{
+    position: relative;
+    width: 800px;
+    height: 100%;
+    z-index: -1;
     border: thick solid black;
-    background-image: url(/images/table\ background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: cornsilk;  
-    width: 50%;
-    
-    
-    
+    grid-area: head2;
+    left: 10%;
 }
 
-#myproject-background{
+.introheadtext{
+    color: white;
+    position: relative;
+    grid-area: head2;
+    left: 12%;
+    top: 10%;
+    
+} 
+
+header{
+    background-color: none;
+    background-image: url(/images/headerbackground.jpg);
+    
+
+}
+.header-boxes{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "head1 head2 head3" 
+    
+ }
+.headerarticle{
+    position: relative;
+    float: right;
+    right: 34%;
+    grid-area: head3;
+    z-index: 1;
+
+}
+#header-buttons{
+    
+    left: 822px;
+    height: 40px;
+    position: relative;
+    float: left;
+
+} 
+aside1{
+    background-color: none;
+    background-image: url(/images/table\ background.jpg);
+    overflow: auto;
+    
+}                
+h2{
+    font-weight: bold;
+    position: relative;
+    left: 30%;
+    z-index: 1;
+    top: 11%;
+}  
+
+
+
+
+
+.myproject-background{
     border: thick solid black;
     position: relative;
-    width: 600px;
+    width: 90%;
     height: 80px;
     border-radius: 100px;
     
-    right: 185px;
+    left: 2%;
     
 }
 #table-intro{
@@ -70,20 +115,19 @@
     left: 200px;
     
 }
-h2{
-    font-weight: bold;
-    position: relative;
-    left: 22%;
-    z-index: 1;
-}  
+
+
+
 #th1{
     border: thick solid black;
-    position: relative;
+    position: sticky;
     width: 200px;
     height: 100px;
     background-image: url(/images/table-backgrounds.png);
     border-radius: 100px;
-    top: -3%;
+    z-index: 1;
+    
+    
     
 }
 
@@ -94,18 +138,21 @@ div th{
     height: 100px;
     background-image: url(/images/table-backgrounds.png);
     border-radius: 100px;
-    top: -1%;
+    top: 3%;
 
 }
-#table-flex-box2{
-    box-sizing: border-box;
-    border: thick solid black;
+#thmedia{
+    background-image: url(../images/musicbackground.jpeg);
+}
+article2{
+    background-color: none;
     background-image: url(/images/table-backgrounds.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
     
-    width: 50%;
+}
+footer{
 
+    background-color: none;
+    background-image: url(/images/headerbackground.jpg);
 }

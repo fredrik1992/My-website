@@ -1,0 +1,66 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "head head head head"
+    "navbar navbar navbar navbar"
+    "aside1 article1 article2 aside2"
+    "footer footer footer footer";
+    grid-template-columns: 10% auto auto 10% ;
+    grid-template-rows: 165px 40px auto 40px;
+}
+
+.intro{
+    
+    
+    background-color: blue;
+    grid-area: head;
+    border: solid black;
+    z-index: -1;
+    min-width: 10%;
+    
+    
+}
+
+header{
+    background-color: blueviolet;
+    grid-area: navbar;
+    
+   
+}
+article1{
+    background-color: brown;
+    grid-area: article1;
+    min-width: 10%;
+}
+article2{
+    background-color:royalblue;
+    grid-area: article2;
+    min-width: 10%;
+}
+aside1{
+    background-color: coral;
+    grid-area:aside1;
+}
+aside2{
+    background-color: coral;
+    grid-area:aside2;
+    min-width: 20%;
+}
+footer{
+    background-color: blueviolet;
+    grid-area: footer;
+}
+
+header,article,aside,footer{
+    border: solid black;
+}
